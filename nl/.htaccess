@@ -1,0 +1,2 @@
+RewriteEngine On
+ErrorDocument 404 http://portfolio-dieter.dx.am/nl/404.php

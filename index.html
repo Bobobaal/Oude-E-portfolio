@@ -1,0 +1,8 @@
+<script type="text/javascript">
+const userLang = navigator.language || navigator.userLanguage; 
+if(userLang === "nl-NL" || userLang === "nl-BE"){
+window.location.replace('./nl/index.php');
+} else{
+window.location.replace('./en/index.php');
+}
+</script>
